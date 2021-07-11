@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.14.3",
+    "@overwolf/types": "^3.1.0",
     "@storybook/addon-actions": "^6.3.2",
     "@storybook/addon-essentials": "^6.3.2",
     "@storybook/addon-links": "^6.3.2",
