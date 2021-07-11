@@ -1,6 +1,6 @@
-# Vite Boilerplate
+# Overwolf Boilerplate
 
-> Quickly bootstrap a new project with Vite Boilerplate.
+> Quickly bootstrap a new project with Overwolf Boilerplate.
 
 This boilerplate contains all the tools you need to build a modern web app with TypeScript, React, Vite, Storybook and Express.  
 You can use it to quickly bootstrap your project.

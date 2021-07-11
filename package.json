@@ -1,5 +1,5 @@
 {
-  "name": "vite-boilerplate",
+  "name": "overwolf-boilerplate",
   "version": "0.0.0",
   "scripts": {
     "dev": "concurrently \"npm run server:dev\" \"npm run client:dev\" \"npm run storybook\"",
