@@ -11,11 +11,10 @@ app.use(express.json());
 // Serve API requests from the router
 app.use('/api', router);
 
-// Serve storybook production bundle
-app.use('/storybook', express.static('dist/storybook'));
-
-// Serve app production bundle
-app.use(express.static('dist/app'));
+// All other requests could be used for static files, images, etc.
+app.get('*', (_req, res) => {
+  res.send('<h1>Welcome to the server</h1>');
+});
 
 app.listen(PORT, () => {
   console.log(`Server listening at http://localhost:${PORT}`);
