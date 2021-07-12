@@ -17,7 +17,16 @@ export default defineConfig({
       },
     },
   },
+  base: './',
   build: {
-    outDir: 'dist/app',
+    target: 'esnext',
+    outDir: 'overwolf/dist',
+    rollupOptions: {
+      input: {
+        background: 'background.html',
+        development: 'development.html',
+        index: 'index.html',
+      },
+    },
   },
 });
