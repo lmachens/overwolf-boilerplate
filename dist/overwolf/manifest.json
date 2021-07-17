@@ -18,12 +18,12 @@
     "start_window": "background",
     "windows": {
       "background": {
-        "file": "dist/background.html",
+        "file": "build/background.html",
         "debug_url": "http://localhost:3000/background.html",
         "is_background_page": true
       },
       "desktop": {
-        "file": "dist/index.html",
+        "file": "build/index.html",
         "debug_url": "http://localhost:3000/index.html",
         "desktop_only": true,
         "native_window": true,
@@ -40,7 +40,7 @@
         }
       },
       "development": {
-        "file": "dist/development.html",
+        "file": "build/development.html",
         "debug_url": "http://localhost:3000/development.html",
         "size": {
           "width": 1212,

@@ -23,20 +23,18 @@ This will install the dependencies required to run the boilerplate.
 npm run dev
 ```
 
-Boom! These scripts run your server, client and storybook in development mode.
+Boom! These scripts run your client and server in development mode.
 
 The default PORTS are:
 
 - `3001` for the server
 - `3000` for the client
-- `6006` for the storybook
 
 If you don't like to call all scripts at once, you can also run:
 
 ```shell
 npm run server:dev
 npm run client:dev
-npm run storybook
 ```
 
 You can configure the server port by setting the `PORT` environment variable. Creating a `.env` file is supported.
@@ -53,17 +51,11 @@ To build the project, run:
 npm run build
 ```
 
-This will build the client, server and storybook.
+This will start the server.
 
 ```shell
 npm start
 ```
-
-In production, you have a single server serving everything.
-
-`/api/*` is the API endpoint.  
-`/storybook` is the Storybook.  
-`/*` is the client.
 
 ## Tests
 
