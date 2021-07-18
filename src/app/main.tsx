@@ -1,4 +1,4 @@
-import React from 'react';
+import { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
 import './globals.css';
 import App from './App';
@@ -6,9 +6,9 @@ import { waitForOverwolf } from './utils/overwolf';
 
 waitForOverwolf().then(() => {
   ReactDOM.render(
-    <React.StrictMode>
+    <StrictMode>
       <App />
-    </React.StrictMode>,
+    </StrictMode>,
     document.querySelector('#root')
   );
 });

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Example } from '../examples';
 import Button from './Button';
 

@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './Dev.module.css';
 import { HashRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import * as examples from './components/examples';
